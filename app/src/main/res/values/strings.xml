@@ -1,0 +1,454 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    // App
+
+    <string name="app_name">Stop Smoking</string>
+    <string name="yes">OK</string>
+    <string name="no">Cancel</string>
+    <string name="textView">textView</string>
+    <string name="app_permissions_title">Used permission</string>
+    <string name="app_permissions">
+
+
+        &lt;i>Access Storage Permission:&lt;/i>&lt;br>
+        &#8226; Diary: backup and restore to/from sd-card.&lt;br>
+        &#8226; Goal: load and save images for your personal goal.&lt;br>&lt;br>
+
+        &lt;i>Grant permissions later:&lt;/i>&lt;br>
+        If you don\'t permit this now, you can do it later. Please open then \"Settings -> App info\" and choose \"Permissions\".</string>
+
+
+    //Share //Reset
+
+    <string name="share_text">Great news: I haven\'t smoked since</string>
+    <string name="share_text_fail">I failed stop smoking after</string>
+    <string name="share_text2">and</string>
+    <string name="share_text3">I saved:</string>
+    <string name="share_text4">cigarettes</string>
+    <string name="share_text5">and</string>
+    <string name="share_text6">of time.</string>
+    <string name="share_subject">I stopped smoking</string>
+    <string name="reset_confirm">Reset the time and create a diary entry?</string>
+
+
+    // Menu
+
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_health">Health</string>
+    <string name="action_overview">Overview</string>
+    <string name="action_diary">Diary</string>
+    <string name="action_goal">Goal</string>
+    <string name="action_save">Save</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_info">Info</string>
+
+    <string name="choose_camera">Camera</string>
+    <string name="choose_gallery">Gallery</string>
+
+
+    // Main Activity
+
+    <string name="not_set">Configure in settings</string>
+    <string name="not_set2">0.0</string>
+
+    <string name="money_euro">€</string>
+    <string name="money_dollar">$</string>
+    <string name="money_pound">£</string>
+    <string name="money_yen">¥</string>
+    <string name="money_Rupee">₹</string>
+    <string name="money_BRL">R$</string>
+    <string name="money_RUB">₽</string>
+
+    <string name="time_days">days</string>
+    <string name="time_hours">hours</string>
+    <string name="time_minutes">minutes</string>
+
+    <string name="last_time_date">Stopped smoking at:</string>
+    <string name="last_since">Not smoked since:</string>
+    <string name="stat">Saved:</string>
+    <string name="stat_h">h</string>
+
+
+    // Health Activity
+
+    <string name="health_congratulations">Congratulations - you did it!</string>
+    <string name="health_reached">Reached in:</string>
+
+    <string name="health_header1">Blood pressure</string>
+    <string name="health_description1">Blood pressure, body temperature and heart rate return to normal. (20 minutes)</string>
+
+    <string name="health_header2">Carbon monoxide</string>
+    <string name="health_description2" tools:ignore="StringFormatCount">Smoker\'s breath disappears. For a smoker, about 10% of
+        the red blood cells are blocked by the poisonous gas carbon monoxide. These cells are now available again for oxygen.
+        (8 hours)</string>
+
+    <string name="health_header3">Heart attack</string>
+    <string name="health_description3">The risk of death by sudden cardiac arrest decreases. (1 day)</string>
+
+    <string name="health_header4">Sense of smell</string>
+    <string name="health_description4">Your sense of smell and taste buds become more sensitive; smelling
+         and taste is refined. (2 days)</string>
+
+    <string name="health_header5">Breathing</string>
+    <string name="health_description5">Breathing becomes easier. (3 days)</string>
+
+    <string name="health_header6">Nicotine withdrawal</string>
+    <string name="health_description6">The physical withdrawal from nicotine is made. (1 week)</string>
+
+    <string name="health_header7">Capacity</string>
+    <string name="health_description7">The entire blood circulation improves. Increased lung capacity is
+         up by 30 %, The lungs can once more absorb more oxygen. This add an increase to physical performance. (3 months)</string>
+
+    <string name="health_header8">Lung hairs</string>
+    <string name="health_description8">By now, the fine hairs in the lungs are regrown and smokers cough
+        disappears. Exhaustion and shortness of breath improve progressively. (9 months)</string>
+
+    <string name="health_header9">Coronary arteries</string>
+    <string name="health_description9">The risk of diseases of the coronary vessels is reduced by half.
+        (1 year)</string>
+
+    <string name="health_header10">Heart attack</string>
+    <string name="health_description10">The risk of heart attack drops significantly. (2 years)</string>
+
+    <string name="health_header11">Stroke</string>
+    <string name="health_description11">The risk of having a stroke or developing lung cancer
+         is substantially lower than earlier. Also, the risk of mouth cancer is
+         reduced. (5 years)</string>
+
+    <string name="health_header12">Lung cancer</string>
+    <string name="health_description12">The risk of lung cancer is the same as a non-smoker. The lungs
+         have almost fully recovered. Pre-cancerous cells are replaced by healthy cells. (10 years)</string>
+
+    <string name="health_header13">Heart attack</string>
+    <string name="health_description13">The risk of heart attack is barely higher than that of a Non-smoker. (15 years)</string>
+
+    <string name="health_header14">Pancreatic Cancer</string>
+    <string name="health_description14">the risk of death from smoking-related causes, including both lung disease and cancer, drops to the level of a person who has never smoked in their life. Also, the risk of developing pancreatic cancer has reduced to that of someone who has never smoked. (20 years)</string>
+
+
+
+
+    // Diary
+
+    <string name="action_backup">Backup diary</string>
+    <string name="action_restore">Restore diary</string>
+    <string name="action_delete">Delete diary</string>
+
+
+    // Notes
+
+    <string name="note_remove_confirmation">Entry will be removed. OK?</string>
+    <string name="note_remove_note">Delete entry</string>
+    <string name="note_edit">Edit entry</string>
+    <string name="note_share">Share entry</string>
+    <string name="note_share_2">Share with:</string>
+    <string name="title_hint">Title</string>
+    <string name="text_hint">Content</string>
+    <string name="toast_extension">No supported file extension</string>
+    <string name="toast_install_app">Please install an app to perform action.</string>
+    <string name="note_attachment">Attachment</string>
+
+    <string name="text_tit_1">Neutral</string>
+    <string name="text_tit_2">Happy</string>
+    <string name="text_tit_3">Sad</string>
+    <string name="text_tit_4">Smiling</string>
+    <string name="text_tit_5">Cool</string>
+    <string name="text_tit_6">Dead</string>
+    <string name="text_tit_7">Excited</string>
+    <string name="text_tit_8">Tongue</string>
+    <string name="text_tit_9">Devil</string>
+
+    <string name="toast_backup">Backup successful.</string>
+    <string name="toast_restore">Restore successful.</string>
+    <string name="toast_backup_not">Backup failed.</string>
+    <string name="toast_restore_not">Restore failed.</string>
+    <string name="toast_save">Entry not saved. Cancel editing?</string>
+
+    <string name="paste_date">Paste actual date</string>
+    <string name="paste_time">Paste actual time</string>
+    <string name="paste_line">Paste line</string>
+
+    <string name="action_sort">Sort entries</string>
+    <string name="action_sort_title">Sort by title</string>
+    <string name="action_sort_icon">Sort by emoticon</string>
+    <string name="action_sort_create">Sort by date</string>
+
+
+    //File chooser
+
+    <string name="choose_att">Choose attachment</string>
+    <string name="choose_title">File manager</string>
+
+
+    // Goal
+
+    <string name="goal_cancel">Cancel</string>
+    <string name="action_image">Picture</string>
+    <string name="action_imageLoad">Choose image</string>
+    <string name="action_imageRotate">Rotate image</string>
+    <string name="costs">Costs:</string>
+    <string name="alreadySaved">Already saved:</string>
+    <string name="costsRemaining">Remaining:</string>
+
+
+    // Settings
+
+    <string name="settings_category_0">Tabs</string>
+    <string name="settings_category_1">Statistics</string>
+    <string name="settings_category_2">Goal tab</string>
+    <string name="settings_category_3">App</string>
+
+    <string name="settings_goalDate">Next goal</string>
+    <string name="settings_tab_overview">Overview tab</string>
+    <string name="settings_tab_health">Health tab</string>
+    <string name="settings_tab_goal">Goal tab</string>
+    <string name="settings_tab_diary">Diary tab</string>
+
+    <string name="settings_goalDate_summary">If you have reached your current goal, you can set here a start date for your next goal. This
+        is necessary to calculate the new time of when you reach the next goal, while keeping the right statistics in the
+        overview tab.</string>
+    <string name="settings_tab_overview_summary">Do you want to use the overview tab? In this tab the main statistics are presented:
+        the time of quitting, saved cigarettes, saved money and so on.</string>
+    <string name="settings_tab_health_summary">Do you want to use the health tab? In this tab the progress of your health benefits are
+        presented: risk oh heart attack, cancer and so on.</string>
+    <string name="settings_tab_goal_summary">Do you want to use the goal tab? Here you can set a personal goal. Something you want to use the
+        saved money for.</string>
+    <string name="settings_tab_diary_summary">Do you want to use the diary tab? Here you can write a diary with your thoughts,
+        problems and something like this. Perhaps it will help you.</string>
+
+    <string name="a_goal">Personal goal</string>
+    <string name="a_goal_summary">What will you use the saved money for? Please enter a title and the costs of your personal goal.</string>
+    <string name="settings_goalTitle_hint">Name of your goal</string>
+    <string name="settings_goalCosts_hint">Costs (integer number): 199</string>
+
+    <string name="settings_costs">Costs</string>
+    <string name="settings_costs_summary">Costs of a single cigarette. This is used to calculate the saved money since quitting.</string>
+    <string name="settings_cost_hint">What does one cigarette cost?</string>
+
+    <string name="settings_currency">Currency</string>
+    <string name="settings_currency_summary">Set your preferred currency</string>
+
+    <string name="a_cig">Smoke habits</string>
+    <string name="a_cig_summary">Enter the number of cigarettes smoked per day and the time it takes to smoke one cigarette.</string>
+    <string name="a_cig_hintNumb">Number of cigarettes</string>
+    <string name="a_cig_hintTime">Time in minutes</string>
+
+    <string name="a_time">Time</string>
+    <string name="a_time_summary">When did you stop smoking? Please enter a date and time.</string>
+
+    <string name="a_dateFormat">Date format</string>
+    <string name="a_dateFormat_summary">Set your preferred date format.</string>
+
+    <string name="a_openSettings">App info</string>
+    <string name="a_openSettings_summary">Open via the system settings the app info. There you can,
+        depending on your Android version, manage several things (Storage, network traffic, permissions, …).</string>
+
+    <string name="toast_newTitle">Title already exists.</string>
+    <string name="toast_notSave">Can not save entry.</string>
+    <string name="toast_directory">Can\'t open Directory.</string>
+    <string name="toast_files">No files in directory.</string>
+    <string name="toast_delete">All entries will be deleted.</string>
+
+    <string name="action_filter">Search</string>
+    <string name="action_filter_title">Search in titles</string>
+    <string name="action_filter_cont">Search in content</string>
+    <string name="action_filter_create">Search in dates</string>
+
+    <string name="filter_today">Today</string>
+    <string name="filter_yesterday">Yesterday</string>
+    <string name="filter_before">Day before yesterday</string>
+    <string name="filter_month">This month</string>
+    <string name="filter_own">Own search</string>
+
+    <string name="sort_title">title</string>
+    <string name="sort_date">date</string>
+    <string name="sort_pri">emoticon</string>
+
+
+    //Intro
+
+    <string name="intro1_title">To Quit Smoking</string>
+    <string name="intro1_text">You have decided to quit smoking ? Thanks for choosing \"To Quit Smoking\". It\'s time to quit a bad habit.</string>
+
+    <string name="intro2_title">Features</string>
+    <string name="intro2_text">\"To Quit Smoking\" presents you an overview with some statistics and your health benefits.
+        Additionally you can configure a goal (What will you do with the saved money?) and write a diary. </string>
+
+    <string name="intro3_title">Settings</string>
+    <string name="intro3_text">Please configure some information about your smoking habits in the settings screen. You can
+        also configure some basic settings (date format, currency, …). Now, let\'s get started …</string>
+
+    // About
+
+    <string name="about_settings">About … and other things</string>
+    <string name="about_settings_text">Changelog, help, license, used libraries and more.</string>
+
+    <string name="about_title_rate">Evaluation</string>
+
+    <string name="more_app">More Apps</string>
+    <string name="about_changelog_summary">Open our store in PlayStore and see what\'s new … (needs internet connection)</string>
+
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="about_privacy_policy_summary">To Quit Smoking! is strongly committed to protecting your privacy and providing the highest quality secure online experience.</string>
+
+    <string name="rate_us">Rate Us</string>
+    <string name="rate_us_summary">We have a big favor to ask all of you who have used our app. It should only take a minute of your time but it will mean the world to us.</string>
+
+    <string name="about_intro">Intro</string>
+    <string name="about_intro_summary">Show the intro screen one more time.</string>
+
+
+    //License Dialog
+
+    <string name="about_title">About</string>
+    <string name="about_text">
+        &lt;i>For more information visit our site on :&lt;br>
+        https://github.com/odogwudev&lt;/i>&lt;br>&lt;br>
+
+        This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
+
+        We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.
+        Information Collection And Use
+        We collect several different types of information for various purposes to provide and improve our Service to you.
+        Types of Data Collected
+        Personal Data
+        While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you Personal Data. Personally identifiable information may include, but is not limited to
+        Cookies and Usage Data
+        Usage Data
+        When you access the Service by or through a mobile device, we may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data Usage Data
+        Tracking  Cookies Data
+        We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.
+        Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.
+        You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.
+        Examples of Cookies we use:
+        Session Cookies. We use Session Cookies to operate our Service.
+        Preference Cookies. We use Preference Cookies to remember your preferences and various settings.
+        Security Cookies. We use Security Cookies for security purposes.
+        If you have any questions about this Privacy Policy, please contact us
+        https://github.com/odogwudev
+    </string>
+
+
+    //Info Dialog
+
+    <string name="info_title">Source of information</string>
+    <string name="info_text">
+        http://www.onmeda.de/rauchen/rauchfrei.html&lt;br>&lt;br>
+        &lt;i>The sources of the above mentioned website are:&lt;/i>&lt;br>&lt;br>
+        Online-information of American Cancer Society: www.cancer.org (31.01.2011)&lt;br>&lt;br>
+        Online-information of Bundeszentrale für gesundheitliche Aufklärung (BZgA): www.rauchfrei-info.de (Stand: 2010)&lt;br>&lt;br>
+        Online-information of Deutschen Hauptstelle für Suchtfragen e.V. (DHS): www.dhs.de (Stand: 2007)&lt;br>&lt;br>
+        Online-information of human health and well-being:WebMD: https://www.webmd.com
+    </string>
+
+
+    //String arrays
+
+    <string-array name="listCurrency">
+        <item>Naira (N)</item>
+        <item>Euro (€)</item>
+        <item>Dollar ($)</item>
+        <item>Pound (£)</item>
+        <item>Yen (¥)</item>
+        <item>Rupee (₹)</item>
+        <item>BRL (R$)</item>
+        <item>RUB (₽)</item>
+    </string-array>
+
+    <string-array name="listValuesCurrency">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="listDate">
+        <item>Style 1 (2020–01–10)</item>
+        <item>Style 2 (10/01/2020)</item>
+        <item>Style 3 (10.01.2020)</item>
+    </string-array>
+
+    <string-array name="listValuesDate">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="tips">Quit Smoking Tips</string>
+    <string name="EXPLORE">EXPLORE</string>
+    <string name="Title_tips">Planning to Quit Smoking For New Year\'s</string>
+    <string name="Title_tips2">Here are a few tips to get you started!</string>
+    <string name="effects">Harmful Effects</string>
+
+
+    <integer-array name="tips_arr">
+        <item>@drawable/tip1</item>
+        <item>@drawable/tip2</item>
+        <item>@drawable/tip3</item>
+        <item>@drawable/tip4</item>
+        <item>@drawable/tip5</item>
+        <item>@drawable/tip6</item>
+        <item>@drawable/tip7</item>
+        <item>@drawable/tip8</item>
+        <item>@drawable/tip9</item>
+        <item>@drawable/tip10</item>
+        <item>@drawable/tip11</item>
+        <item>@drawable/tip12</item>
+        <item>@drawable/tip13</item>
+    </integer-array>
+
+
+    <string name="SMART_BANNER" translatable="false">ca-app-pub-1900344374753875/4024189469</string>
+    <string name="app_id" translatable="false">ca-app-pub-1900344374753875~8075131029</string>
+    <string name="Interstitial" translatable="false">ca-app-pub-1900344374753875/5145699446</string>
+    <string name="Native" translatable="false">ca-app-pub-1900344374753875/3449474392</string>
+
+
+    //Quotes
+    <string name="quote1">Smoking is a habit that drains your money and kills you slowly, one puff after another. Quit smoking, start living.</string>
+    <string name="quote2">Replacing the smoke on your face with a smile today will replace illness in your life with happiness tomorrow. Quit now.</string>
+    <string name="quote3">Looking for motivation to quit smoking? Just look into the eyes of your loved ones and ask yourself if they deserve to die because of your second hand smoke.</string>
+    <string name="quote4">If you don’t quit smoking, you risk disease and death. But if you do, you will get happiness and good health.</string>
+    <string name="quote5">All the suffering, stress and addiction comes from not realizing you already are what you are looking for.</string>
+    <string name="quote6">It is in your moments of decision that your destiny is shaped.</string>
+    <string name="quote7">You don’t need cigarettes to be complete. All the happiness, comfort and peace you seek, is already inside you.</string>
+    <string name="quote8">Quitting smoking is rather a marathon than a sprint. It is not a one-time attempt, but a longer effort.</string>
+    <string name="quote9">The surest way not to fail is to determine to succeed.</string>
+    <string name="quote10">You\'re always better off if you quit smoking; it\'s never too late..</string>
+    <string name="quote11">Our strength grows out of our weakness.</string>
+    <string name="quote12">At least three times every day take a moment and ask yourself what is really important. Have the wisdom and the courage to build your life around your answer.</string>
+    <string name="quote13">Every time you try to quit smoking you are actually getting closer to staying smoke-free.</string>
+    <string name="quote14">Our greatest glory is not in never falling but in rising up every time we fail.</string>
+    <string name="quote15">When you are going through hell, keep on going. Never never give up.</string>
+    <string name="quote16">Don’t let the fear of the time it will take to accomplish something stand in the way of your doing it.</string>
+    <string name="quote17">It does not matter how slowly you go so long as you do not stop.</string>
+    <string name="quote18">Smokers don\'t grow old…they die young.</string>
+    <string name="quote19">Giving up doesn\'t always mean you are weak, sometimes it means you are strong enough and smart enough to let go.</string>
+    <string name="quote20">The best time to quit smoking was the day you started, the second-best time to quit is today.</string>
+
+
+    // rate us string
+    <string name="love_this_app">Do you like</string>
+    <string name="first_msg">Your rating will help us to do better.</string>
+    <string name="review_1">That\'s not the experience we\'d like you to have. Please share your feedback below.</string>
+    <string name="review_2">Uh oh! Could you tell us more about what we could improve?</string>
+    <string name="review_3">Thanks for your Feedback, is there something specific that you think we could improve?</string>
+    <string name="review_4">Thank you! your feedback inspires us to improve. Would you mind giving us a 5?</string>
+    <string name="review_5">Thanks! Your awesome feedback just made our day! please rate us on Play Store.</string>
+    <string name="write_feedback">Write Feedback</string>
+    <string name="Body_feedback">Suggest us what went wrong and we\'ll work on it </string>
+    <string name="rate">Rate</string>
+    <string name="dev">DEV</string>
+    <string name="ui">UI</string>
+    <string name="qa">QA</string>
+    <string name="op">OP</string>
+    <string name="pm">PM</string>
+
+    //share message
+    <string name="share_message">This is a good app that will help you to quit smoking! \n To Quit Smoking </string>
+</resources>

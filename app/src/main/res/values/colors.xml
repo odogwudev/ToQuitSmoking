@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8f0cb8</color>
+    <color name="colorPrimaryDark">#7e08a3</color>
+    <color name="colorAccent">#E91E63</color>
+    <color name="text_all_color">#ffff</color>
+    <color name="blacks">#000000</color>
+    <color name="orange">#FF7347</color>
+
+    <color name="cardBackground">#FFFAF0</color>
+    <color name="cardBackground2">#7f8a82</color>
+    <color name="primaryText">#151515</color>
+    // custom colors
+    <color name="tips_back">#FFC107</color>
+    <color name="blacks_transparent">#00000000</color>
+    <color name="savedcontainer">#E91E63</color>
+    <color name="mal_card_background">#E91E63</color>
+
+
+
+    <!-- 1st Gradient color -->
+    <color name="colorPurple_A400">#D500F9</color>
+    <color name="colorPurple_900">#4A148C</color>
+    <!-- ./ 1st Gradient color -->
+
+    <!-- 4th Gradient color -->
+    <color name="colorPink_A400">#ff6090</color>
+    <color name="colorPink_900">#b0003a</color>
+    <!-- ./ 4th Gradient color -->
+
+    <!-- 2nd Gradient color -->
+    <color name="colorAmber_A400">#FFC400</color>
+    <color name="colorAmber_900">#FF6F00</color>
+    <!-- ./ 2nd Gradient color -->
+    <!-- 4th Gradient color -->
+    <color name="colorRed_A400">#FF1744</color>
+    <color name="colorRed_900">#B71C1C</color>
+    <!-- ./ 4th Gradient color -->
+
+
+</resources>

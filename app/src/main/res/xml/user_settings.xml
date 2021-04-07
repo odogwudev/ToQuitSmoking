@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/settings_category_0">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@drawable/chart_bar"
+            android:key="tab_overview"
+            android:summary="@string/settings_tab_overview_summary"
+            android:title="@string/settings_tab_overview" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@drawable/heart_pulse"
+            android:key="tab_health"
+            android:summary="@string/settings_tab_health_summary"
+            android:title="@string/settings_tab_health" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@drawable/trophy_award"
+            android:key="tab_goal"
+            android:summary="@string/settings_tab_goal_summary"
+            android:title="@string/settings_tab_goal" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@drawable/book_open_page_variant"
+            android:key="tab_diary"
+            android:summary="@string/settings_tab_diary_summary"
+            android:title="@string/settings_tab_diary" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_category_1">
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/listDate"
+            android:entryValues="@array/listValuesDate"
+            android:icon="@drawable/calendar_question"
+            android:key="dateFormat"
+            android:summary="@string/a_dateFormat_summary"
+            android:title="@string/a_dateFormat" />
+
+        <Preference
+            android:icon="@drawable/timer"
+            android:key="time"
+            android:summary="@string/a_time_summary"
+            android:title="@string/a_time" />
+
+        <Preference
+            android:icon="@drawable/smoking"
+            android:key="cig"
+            android:summary="@string/a_cig_summary"
+            android:title="@string/a_cig" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/listCurrency"
+            android:entryValues="@array/listValuesCurrency"
+            android:icon="@drawable/currency_usd"
+            android:key="currency"
+            android:summary="@string/settings_currency_summary"
+            android:title="@string/settings_currency" />
+
+        <Preference
+            android:icon="@drawable/wallet"
+            android:key="costs"
+            android:summary="@string/settings_costs_summary"
+            android:title="@string/settings_costs" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_category_2">
+
+        <Preference
+            android:icon="@drawable/trophy_award"
+            android:key="goalTitle"
+            android:summary="@string/a_goal_summary"
+            android:title="@string/a_goal" />
+
+        <Preference
+            android:icon="@drawable/arrow_right"
+            android:key="goalDate"
+            android:summary="@string/settings_goalDate_summary"
+            android:title="@string/settings_goalDate" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_category_3">
+
+        <Preference
+            android:icon="@drawable/settings"
+            android:key="clearCache"
+            android:summary="@string/a_openSettings_summary"
+            android:title="@string/a_openSettings" />
+
+        <Preference
+            android:icon="@drawable/information_outline"
+            android:key="license"
+            android:summary="@string/about_settings_text"
+            android:title="@string/about_settings" />
+
+
+    </PreferenceCategory>
+
+
+</androidx.preference.PreferenceScreen>

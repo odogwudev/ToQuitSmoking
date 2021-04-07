@@ -1,0 +1,93 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.jfrog.bintray'
+apply plugin: 'com.github.dcendents.android-maven'
+
+android {
+    compileSdkVersion 29
+
+
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+
+            minifyEnabled true
+            zipAlignEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation 'com.ryan.base-lib:base-lib:0.0.6'
+
+}
+
+//important
+Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
+version = "1.1.2"//The version number of the library released, this is more critical! !! !!
+
+def siteUrl = 'https://github.com/ryanlijianchang/Recyclerview-Gallery'      // Project's homepage (optional, it is recommended to fill in the library's github address)
+def gitUrl = 'https://github.com/ryanlijianchang/Recyclerview-Gallery'      //Git repository URL (optional, it is recommended to fill the library's github address)
+group = "com.ryan.rv_gallery"    // Here is the groupId, which must be filled in (it is recommended to fill in a unique package name)
+
+bintray {
+    user = properties.getProperty("bintray.user") //Read bintray.user in local.properties file
+    key = properties.getProperty("bintray.apikey")
+
+    configurations = ['archives']
+    pkg {
+        repo = "maven"
+        group = group
+        name = "RecyclerView-Gallery"//The name of the project posted to JCenter. Must be filled in.
+        websiteUrl = siteUrl
+        vcsUrl = gitUrl
+        licenses = ["Apache-2.0"]
+        publish = true
+    }
+}
+
+install {
+    repositories.mavenInstaller {
+        // This generates POM.xml with proper parameters
+        pom {
+            project {
+                packaging 'aar'
+                // Add your description here
+                name 'The library is a custom view about "Personal center consumption points" in our old version app'     //project description
+                url siteUrl
+                // Set your license
+                licenses {
+                    license {
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'ryanlijianchang'        //Developer's basic information (recommended to fill in your own name)
+                        name 'RyanLee'    //Developer basic information (recommended to fill in your own name)
+                        email 'liji.anchang@163.com'   //Developer basic information (recommended to fill in your own name)
+                    }
+                }
+                scm {
+                    connection gitUrl
+                    developerConnection gitUrl
+                    url siteUrl
+                }
+            }
+        }
+    }
+}

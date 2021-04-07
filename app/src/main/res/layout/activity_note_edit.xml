@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:foregroundGravity="center"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.odogwudev.stopsmoking.MainActivity"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layout_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginEnd="16dp"
+                android:layout_toStartOf="@+id/imageButtonPaste"
+                app:passwordToggleEnabled="false">
+
+                <EditText
+                    android:id="@+id/note_title_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:hint="@string/title_hint"
+                    android:inputType="textCapSentences|textMultiLine"
+                    tools:targetApi="o" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layout_cont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_title"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                app:passwordToggleEnabled="false">
+
+                <EditText
+                    android:id="@+id/note_text_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:hint="@string/text_hint"
+                    android:inputType="textCapSentences|textMultiLine"
+                    tools:targetApi="o" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <ImageButton
+                android:id="@+id/imageButtonPri"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignTop="@+id/layout_title"
+                android:layout_alignEnd="@+id/layout_cont"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:background="?android:selectableItemBackground"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/emoticon_neutral"
+                tools:ignore="ContentDescription" />
+
+            <Button
+                android:id="@+id/button_att"
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:layout_below="@+id/layout_cont"
+                android:layout_alignStart="@+id/layout_cont"
+                android:layout_marginStart="4dp"
+                android:layout_toStartOf="@+id/button_cam"
+                android:background="?android:selectableItemBackground"
+                android:gravity="center_vertical"
+                android:text="@string/choose_att" />
+
+
+            <ImageButton
+                android:id="@+id/button_rem"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignTop="@+id/button_att"
+                android:layout_alignEnd="@+id/layout_cont"
+                android:layout_alignBottom="@+id/button_att"
+                android:background="?android:selectableItemBackground"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/close_red"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/button_cam"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignTop="@+id/button_att"
+                android:layout_alignEnd="@+id/layout_cont"
+                android:layout_alignBottom="@+id/button_att"
+                android:background="?android:selectableItemBackground"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/image"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/imageButtonPaste"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignTop="@+id/imageButtonPri"
+                android:layout_marginEnd="16dp"
+                android:layout_toStartOf="@+id/imageButtonPri"
+                android:background="?android:selectableItemBackground"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/timer"
+                tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
